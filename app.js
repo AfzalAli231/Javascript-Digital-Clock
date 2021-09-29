@@ -24,8 +24,8 @@
             return n;
           }
 
-          var months = ["January", "February", "March", "April", "May", "June", "July", "Augest", "September", "October", "November", "December"];
-          var week = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+          var months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+          var week = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
           var ids = ["dayname", "month", "daynum", "year", "hour", "minutes", "seconds", "period"];
           var values = [week[dname], months[mo], dnum.pad(2), yr, hou.pad(2), min.pad(2), sec.pad(2), pe];
           for(var i = 0; i < ids.length; i++)
